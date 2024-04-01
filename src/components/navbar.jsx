@@ -44,8 +44,10 @@ export default function Nav() {
                 <div className="flex flex-shrink-0 items-center">
                   <Image
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/Image/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    src="/1.png"
+                    width={500}
+                    height={500}
+                    alt="Placeholder"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
