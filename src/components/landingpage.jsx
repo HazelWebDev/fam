@@ -109,17 +109,11 @@ export default function Landingpage() {
                     <div className="flex items-center space-x-6 lg:space-x-8">
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                          <Image
-                            src="/1.png"
-                            width={500}
-                            height={500}
-                            alt="p1"
-                            className="h-full width-full object-cover object-center"
-                          />
+                          <Image src={"/1.png"} width={500} height={500} />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <Image
-                            src="/2.png"
+                            src={"/2.ping"}
                             width={500}
                             height={500}
                             alt="p2"
@@ -130,7 +124,7 @@ export default function Landingpage() {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <Image
-                            src="/3.png"
+                            src={"/3.png"}
                             width={500}
                             height={500}
                             alt="p3"
@@ -139,7 +133,7 @@ export default function Landingpage() {
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <Image
-                            src="/4.png"
+                            src={"/4.png"}
                             width={500}
                             height={500}
                             alt="p4"
@@ -148,7 +142,7 @@ export default function Landingpage() {
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <Image
-                            src="/5.png"
+                            src={"/5.png"}
                             width={500}
                             height={500}
                             alt="p5"
@@ -159,7 +153,7 @@ export default function Landingpage() {
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <Image
-                            src="/6.png"
+                            src={"/6.png"}
                             width={500}
                             height={500}
                             alt="p6"
@@ -168,7 +162,7 @@ export default function Landingpage() {
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <Image
-                            src="/7.png"
+                            src={"/7.png"}
                             width={500}
                             height={500}
                             alt="p7"

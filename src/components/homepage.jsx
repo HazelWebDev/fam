@@ -13,7 +13,7 @@ const features = [
     name: "Refined details",
     description:
       "We design every detail with the best materials and finishes. This laptop sleeve features durable canvas with double-stitched construction, a felt interior, and a high quality zipper that hold up to daily use.",
-    imageSrc: "2.png",
+    imageSrc: "/2.png",
     imageAlt: "Detail of zipper pull with tan leather and silver rivet.",
   },
 ];
@@ -68,6 +68,8 @@ export default function Homepage() {
               >
                 <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
                   <Image
+                    height={500}
+                    width={500}
                     src={feature.imageSrc}
                     alt={feature.imageAlt}
                     className="object-cover object-center"

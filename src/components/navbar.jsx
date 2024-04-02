@@ -6,15 +6,15 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 const navigation = [
-  { name: "About Us", href: "/", current: false },
+  { name: "About Us", href: "/about", current: false },
+  { name: "Coasters", href: "/stores/coasters", current: false },
   {
     name: "Frost Bites",
     href: "/stores/frostbites",
     current: true,
   },
-  { name: "Coasters", href: "#", current: false },
-  { name: "VibrantKnots", href: "#", current: false },
-  { name: "Vsync Art", href: "#", current: false },
+  { name: "VibrantKnots", href: "/stores/vibrantknots", current: false },
+  { name: "Vsync Art", href: "/stores/vsyncart", current: false },
 ];
 
 function classNames(...classes) {
@@ -44,7 +44,7 @@ export default function Nav() {
                 <div className="flex flex-shrink-0 items-center">
                   <Image
                     className="h-8 w-auto"
-                    src="/1.png"
+                    src={"/1.png"}
                     width={500}
                     height={500}
                     alt="Placeholder"
