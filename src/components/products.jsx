@@ -1,13 +1,12 @@
 const products = [
   {
     id: 1,
-    name: "Leather Long Wallet",
+    name: "Monstera Plant",
     color: "Natural",
-    price: "$75",
+    price: "$25",
     href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-04-trending-product-02.jpg",
-    imageAlt: "Hand stitched, orange leather long wallet.",
+    imageSrc: "monstera.jpeg",
+    imageAlt: "Hand stitched hanging monstera plant.",
   },
   // More products...
 ];
