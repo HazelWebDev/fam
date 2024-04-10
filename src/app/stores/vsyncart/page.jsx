@@ -1,6 +1,31 @@
 "use client";
+import Title from "@/components/title";
+import Gallery from "@/components/gallery2";
 
-import Homepage from "@/components/homepage";
+const heading = {
+  title: "Vysnc Art",
+  subtitle: "blahblah blah",
+};
+const features = [
+  {
+    name: "Airy and Delicious",
+    description: "Placeholder txt",
+    imageSrc: "/7.png",
+    imageAlt: "Coaster pattern with ____.",
+  },
+  {
+    name: "Sweet or Savory Options",
+    description: "Placeholder txt",
+    imageSrc: "/6.png",
+    imageAlt: "Coaster pattern with ____.",
+  },
+];
+
 export default function Page() {
-  return <Homepage />;
+  return (
+    <div>
+      <Title data={heading} />
+      <Gallery data={features} />
+    </div>
+  );
 }

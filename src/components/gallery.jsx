@@ -22,23 +22,12 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Homepage() {
+export default function Gallery({ data }) {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Protect your device
-          </h2>
-          <p className="mt-4 text-gray-500">
-            As a digital creative, your laptop or tablet is at the center of
-            your work. Keep your device safe with a fabric sleeve that matches
-            in quality and looks.
-          </p>
-        </div>
-
-        <div className="mt-16 space-y-16">
-          {features.map((feature, featureIdx) => (
+      <div className="mx-auto max-w-xl px-4 py-6 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8 lg:py-6">
+        <div className="mt-8 space-y-12">
+          {data.map((feature, featureIdx) => (
             <div
               key={feature.name}
               className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
@@ -66,7 +55,7 @@ export default function Homepage() {
                   "flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8"
                 )}
               >
-                <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
+                <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                   <Image
                     height={500}
                     width={500}
