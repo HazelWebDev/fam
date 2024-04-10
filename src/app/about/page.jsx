@@ -30,50 +30,6 @@ export default function Example() {
       <div className="bg-white">
         {/* Header */}
         <header className="absolute inset-x-0 top-0 z-50">
-          {/* <nav
-          className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
-          aria-label="Global"
-        >
-          <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-              onClick={() => setMobileMenuOpen(true)}
-            >
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-            </button>
-          </div>
-          <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                {item.name}
-              </a>
-            ))}
-          </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
-        </nav> */}
           <Dialog
             as="div"
             className="lg:hidden"
@@ -112,7 +68,8 @@ export default function Example() {
               <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
                 <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                   <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                    We’re a family focusing on coming together through art.
+                    We&rsquo;re a family focusing on coming together through
+                    art.
                   </h2>
                   <p className="mt-6 text-xl leading-8 text-gray-600">
                     Our products are inspired by creativity and drive to create
@@ -238,8 +195,8 @@ export default function Example() {
                       Meet our team
                     </h2>
                     <p className="mt-6 text-lg leading-8 text-gray-300">
-                      We are a family of creatives who are looking to inspire
-                      others creatively.
+                      We&rsquo;re a family of creatives who are looking to
+                      inspire others creatively.
                     </p>
                     <ul
                       role="list"
