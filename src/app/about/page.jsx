@@ -118,8 +118,8 @@ export default function Example() {
                     Our products are inspired by creativity and drive to create
                     something unique that can be enjoyed by people of all
                     backgrounds. From candy to coasters to everlasting plants
-                    and nostaglia from your favorite shows as a kid, we've got
-                    it all.
+                    and nostaglia from your favorite shows as a kid, we have it
+                    all.
                   </p>
                   <p className="mt-6 text-base leading-7 text-gray-600">
                     Check out out shops and products!
@@ -238,7 +238,7 @@ export default function Example() {
                       Meet our team
                     </h2>
                     <p className="mt-6 text-lg leading-8 text-gray-300">
-                      We're a family of creatives who are looking to inspire
+                      We are a family of creatives who are looking to inspire
                       others creatively.
                     </p>
                     <ul
